@@ -1,0 +1,20 @@
+{
+    "name": "magelearn/minicart-open",
+    "description": "Open minicart after adding products to cart Magento 2",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "vijay rami",
+            "email": "vijaymrami@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Magelearn\\MinicartOpen\\": ""
+        }
+    }
+}
